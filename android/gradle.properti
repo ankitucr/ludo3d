@@ -1,0 +1,15 @@
+org.gradle.jvmargs=-Xmx2048M -Dfile.encoding=UTF-8
+org.gradle.daemon=false
+org.gradle.parallel=false
+org.gradle.configureondemand=false
+org.gradle.caching=false
+
+android.useAndroidX=true
+android.enableJetifier=true
+
+kotlin.incremental=false
+kotlin.compiler.execution.strategy=in-process
+
+# PRoot fix
+org.gradle.workers.max=1
+android.enableAapt2=false
